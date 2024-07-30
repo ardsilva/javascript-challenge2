@@ -1,0 +1,33 @@
+#boxes {
+  display: flex;
+  gap: 5px;
+}
+
+#boxes > div {
+  width: 100px;
+  height: 100px;
+}
+
+.box-1 {
+  background-color: beige;
+}
+.box-2 {
+  background-color: tomato;
+}
+.box-3 {
+  background-color: steelblue;
+}
+.box-4 {
+  background-color: darkgreen;
+}
+.box-5 {
+  background-color: violet;
+}
+
+.box-loading {
+  background-color: gray;
+}
+.box-loading:after {
+  content: 'Loading';
+  color: black;
+}
